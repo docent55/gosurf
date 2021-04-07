@@ -5,6 +5,42 @@ body {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  background-color: #171919;
+}
+
+.container {
+  max-width: 1920px;
+  max-width: 0 auto;
+}
+
+.title {
+  span {
+    text-transform: uppercase;
+    font-size: 200px;
+    color: rgba(#fff, .02);
+    font-weight: 800;
+    position: relative;
+    transform: translateX(-50px);
+    display: inline-block;
+  }
+  h3 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 80px;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 80px;
+      height: 1px;
+      background-color: #4AF6CD;
+    }
+  }
 }
 
 .suptitle-left {
@@ -29,5 +65,18 @@ body {
     background-color: #fff;
     left: 0;
     top: 50%;
+  }
+}
+
+.subtitle {
+  display: inline-block;
+  text-align: right;
+  &__head {
+    font-weight: 800;
+    font-size: 40px;
+    padding-right: 10px;
+    span {
+      font-weight: 300;
+    }
   }
 }
