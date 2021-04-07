@@ -17,6 +17,7 @@ export const Header = () => {
                     go
                     surf
                 </div>
+                
                 <div className='header__map'>
                     <svg width="1001" height="496" viewBox="0 0 1001 496" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.29827">
