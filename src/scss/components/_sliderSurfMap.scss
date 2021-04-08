@@ -1,0 +1,32 @@
+.slider-map-container {
+    position: absolute;
+    top: 150px;
+    width: 1920px;
+}
+
+.slider-map {
+    max-width: 1200px;
+    min-height: 635px;
+    background-image: url('../../images/svg/wm.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.slider-dots__circle {
+    width: 24px;
+    height: 24px;
+    background-color:  #4AF6CD;
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px rgba(74, 246, 205, 0.837777);
+    &.circle1 {
+        position: absolute;
+        top: 330px;
+        left: 346px;
+    }
+}
+
+.slider-dots__content {
+    display: none;
+}
