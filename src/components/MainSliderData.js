@@ -1,25 +1,31 @@
+import surf from '../images/serf.jpg';
+
 export const SliderData = [
     {
         id: 0,
-        images: '../images/serf.jpg',
+        number: '01',
+        images: surf,
         surf: 'North Shore',
         condition: 'radical'
     },
     {
         id: 1,
-        images: '../images/serf.jpg',
+        number: '02',
+        images: surf,
         surf: 'South Shore',
         condition: 'radical2'
     },
     {
         id: 2,
-        images: '../images/serf.jpg',
+        number: '03',
+        images: surf,
         surf: 'West Shore',
         condition: 'radical3'
     },
     {
         id: 3,
-        images: '../images/serf.jpg',
+        number: '04',
+        images: surf,
         surf: 'East Shore',
         condition: 'radical4'
     }
