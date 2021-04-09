@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-// import arrowR from '../images/svg/arrow-r.svg';
+import { Link } from 'react-router-dom';
 import logo from '../images/svg/Logo.svg';
 import surf from '../images/svg/nav-surf.svg';
 import camp from '../images/svg/nav-camp.svg';
@@ -58,33 +57,6 @@ export const Header = () => {
                         California
                     </div>
                 </div>
-                
-                {/* <div className='slider-dotshead'>
-                    <div className='slider-dots__item'>
-                        <div className='dots-box'>
-                            <div className='dots-box__number'>01</div>
-                            <div className='dots-box__name'>North Shore</div>
-                        </div>
-                    </div>
-                    <div className='slider-dots__item'>
-                        <div className='dots-box'>
-                            <div className='dots-box__number'>01</div>
-                            <div className='dots-box__name'>North Shore</div>
-                        </div>
-                    </div>
-                    <div className='slider-dots__item'>
-                        <div className='dots-box'>
-                            <div className='dots-box__number'>01</div>
-                            <div className='dots-box__name'>North Shore</div>
-                        </div>
-                    </div>
-                    <div className='slider-dots__item'>
-                        <div className='dots-box'>
-                            <div className='dots-box__number'>01</div>
-                            <div className='dots-box__name'>North Shore</div>
-                        </div>
-                    </div>
-                </div> */}
             </header>
         </>
     )

@@ -47,7 +47,7 @@ export const MainSlider = () => {
             {SliderData.map((e) => {
                 return(
                     <div key={e.id} 
-                    className={current == e.id ? 'slider-main-dotshead__item slider-main-dotshead__item--active' : 'slider-main-dotshead__item'} 
+                    className={current === e.id ? 'slider-main-dotshead__item slider-main-dotshead__item--active' : 'slider-main-dotshead__item'} 
                     onClick={() => setCurrent(e.id)}>
                             <div className='slider-main-dotshead__number'>{e.number}</div>
                             <div className='slider-main-dotshead__name'>{e.surf}</div>
