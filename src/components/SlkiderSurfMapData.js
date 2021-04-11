@@ -28,5 +28,20 @@ export const SliderSurfMapData = [
             top: 289,
             left: 495,
         }
+    },
+    {
+        id: 2,
+        beach: 'гаити',
+        surf: '3-5',
+        tide: '+1.1',
+        wind: '7 N',
+        location: {
+            country: 'Гаити',
+            state: 'ававав'
+        },
+        coordinate: {
+            top: 322,
+            left: 700,
+        }
     }
 ]

@@ -31,7 +31,7 @@ export const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to='/'>
+                                <Link to='/travel'>
                                 <img src={travel} alt='menu__icon'/><span>Travel</span>
                                 </Link>
                             </li>

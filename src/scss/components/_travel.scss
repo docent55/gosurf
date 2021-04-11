@@ -1,0 +1,13 @@
+.travel {
+    padding: 160px 0 210px;
+    background-image: url('../../images/travel/travel.png');
+    background-position: 170px 50px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    &__subtitle {
+        text-transform: uppercase;
+        text-align: right;
+        padding-right: 80px;
+        margin-top: -86px;
+    }
+}

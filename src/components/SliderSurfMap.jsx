@@ -8,7 +8,7 @@ import sliderW from '../images/svg/slidr-dots-3.svg';
 
 export const SliderSurfMap = (data) => {
     const [current, setCurrent] = useState(0);
-    const length = data.length;
+    const length = data.data.length;
 
     const nextSlide = () => {
         setCurrent(current === length -1 ? 0 : current + 1);
@@ -40,9 +40,11 @@ export const SliderSurfMap = (data) => {
                         ></div>
                     })}
                     {data.data.map((e) => {
-                        if (e.id === current)
-                        return (                 
-                            <div key={e.id} className='slider-dots__content'>
+                        
+                        return (       
+                            <div key={e.id}>
+                            {e.id === current && (          
+                            <div className='slider-dots__content'>
                             <div className='slider-dots__content-head'>
                                 
                                 <div className='slider-dots__content-title'>{e.beach} </div>
@@ -68,6 +70,7 @@ export const SliderSurfMap = (data) => {
                             <Link to='/' className='slider-dots__content-link'>
                                 <img src={arrowR} alt='arrow'/>
                             </Link>
+                            </div>)}
                             </div>
                         )
                     })}
